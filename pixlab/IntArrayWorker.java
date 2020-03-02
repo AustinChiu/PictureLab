@@ -98,5 +98,9 @@ public class IntArrayWorker
       }
     }
   }
- 
+  public int getCount(int n){
+     return 0; 
+      
+      
+    }
 }
