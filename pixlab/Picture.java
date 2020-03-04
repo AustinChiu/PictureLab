@@ -198,10 +198,16 @@ public void mirrorHorizontalBotToTop()
   for (int col = 0; col < pixels[0].length; col++){                 
       topPixel = pixels[row][col];  
       bottomPixel = pixels[(pixels.length - 1) - row][col];       
-      TopPixel.setColor(bottomPixel.getColor());       
+      topPixel.setColor(bottomPixel.getColor());       
   }  
 }
-  
+}
+public void mirrorDiagonal(){
+ Pixel[][]pixels=this.getPixels2D();
+ Pixel downleft= null;
+ Pixel topright=null;
+ int width=pixels[0].length;
+    
 }
   /** Mirror just part of a picture of a temple */
   public void mirrorTemple()

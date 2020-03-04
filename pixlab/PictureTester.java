@@ -60,6 +60,12 @@ public class PictureTester
      temple.mirrorHorizontal();
      temple.explore();
     }
+  public static void testHorizontalBotToTop(){
+     Picture temple = new Picture("temple.jpg");
+     temple.explore();
+     temple.mirrorHorizontalBotToTop();
+     temple.explore();
+    }
   /** Method to test mirrorTemple */
   public static void testMirrorTemple()
   {
@@ -68,6 +74,7 @@ public class PictureTester
     temple.mirrorTemple();
     temple.explore();
   }
+  
   
   /** Method to test the collage method */
   public static void testCollage()
@@ -100,7 +107,8 @@ public class PictureTester
     //testGrayscale();
     //testFixUnderwater();
     //testMirrorVertical();
-    testHorizontalMirror();
+    //testHorizontalMirror();
+    testHorizontalBotToTop();
     //testMirrorTemple();
     //testMirrorArms();
     //testMirrorGull();
