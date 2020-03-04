@@ -207,6 +207,7 @@ public void mirrorDiagonal(){
  Pixel downleft= null;
  Pixel topright=null;
  int width=pixels[0].length;
+ for(int row=0;row<pixels.length
     
 }
   /** Mirror just part of a picture of a temple */
