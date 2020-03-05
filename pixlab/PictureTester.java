@@ -66,6 +66,12 @@ public class PictureTester
      temple.mirrorHorizontalBotToTop();
      temple.explore();
     }
+    public static void testMirrorDiagonal(){
+     Picture temple = new Picture("temple.jpg");
+     temple.explore();
+     temple.mirrorDiagonal();
+     temple.explore();
+    }
   /** Method to test mirrorTemple */
   public static void testMirrorTemple()
   {
